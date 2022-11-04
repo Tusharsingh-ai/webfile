@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(104, 212, 113);
+    overflow: hidden;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(104, 40, 40);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+
+}
+#nav{
+    height: 6%;
+    width: 100%;
+    background-color: rgb(0, 0, 0,0.254);
+    position: fixed;
+    z-index: 99999;
+
+
+}
+
+video{
+
+    height: 120%;
+    width: 100%;
+    background-size: cover;
+    position: fixed;
+    top: -10%;
+
+}
+h2{
+    position: absolute;
+    z-index: 999999999;
+    top: 60%;
+    left:78%;
+    transform: translate(-50%,-50%);
+    font-family: Bright Young Things;
+    font-size: 80px;
+    color: white;
+    font-weight: 100;
+    animation: ai 15s cubic-bezier(.6,.62,.89,.85) 2s   both;
+
+}
+h3{
+    position: absolute;
+    z-index: 9999999;
+    top: 40%;
+    right:-2%;
+    transform: translate(-50%,-50%);
+    font-family: GREEN NATURE;
+    font-size: 190px;
+    color: white;
+    font-weight: 100;
+    animation: ani 15s cubic-bezier(.6,.62,.89,.85) 2s   both;
+
+}
+#txt{
+    position: absolute;
+    top: 60%;
+
+    height: 60%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.14);
+    animation: anim 15s cubic-bezier(0.19, 1, 0.22, 1) 2s   both;
+}
+h1{
+    position: absolute;
+    z-index: 9999999;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Paradise;
+    font-size:150px;
+    font-weight: 10;
+    color: rgb(255, 255, 255);
+
+}
+h5{
+    position: absolute;
+    z-index: 9999999;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Paradise;
+    font-size:25px;
+    font-weight: 10;
+    word-spacing: 2px;
+    color: rgb(255, 255, 255);
+
+}
+button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50px;
+    width: 200px;
+    border-radius: 1%;
+    border: white 2px;
+    border-style: solid;
+    background-color:transparent;
+    font-size: 20px;
+    color: white;
+    word-spacing: 2px;
+    font-family: Gilroy-Light;
+
+}
+
+button:hover{
+    background-color: rgba(129, 204, 146, 0.445);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes anim{
+    0%{
+        top:105%;
+        height: 100%;
+
+    }
+
+    100%{
+        top: 0%;
+        height: 100%;
+    }
+    /* 100%{
+        top:120%;
+        height: 0%;
+    } */
+}
+@keyframes ani{
+    0%{
+        top:70%;
+        height: 100%;
+    }
+    30%{
+        top:-35%;
+        height: 100%;
+    }
+
+    100%{
+        top: -15%;
+        height: 100%;
+    }
+    /* 60%{
+        top:59%;
+        height: 100%;
+    }
+    75%{
+        top: 70%;
+        height: 100%;
+
+    }
+    100%{
+        top: 70%;
+        height: 100%;
+    } */
+}
+@keyframes ai{
+    0%{
+        top:96%;
+        height: 100%;
+    }
+    30%{
+        top:-40%;
+        height: 100%;
+    }
+
+    100%{
+        top: -20%;
+        height: 100%;
+    }
+    /* 60%{
+        top:49%;
+        height: 100%;
+    }
+    75%{
+        top: 90%;
+        height: 100%;
+
+    }
+    100%{
+        top: 96%;
+        height: 100%;
+    } */
+}
